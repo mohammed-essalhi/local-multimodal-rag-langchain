@@ -1,0 +1,15 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Vector Database (Heavy)
+ollama_mrag_db/
+RL intro.pdf
+
+# Generated Image Outputs
+pdf_images/
+presentation/
+
+# OS Generated
+.DS_Store
+Thumbs.db
