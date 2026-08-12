@@ -10,14 +10,14 @@ This repository contains a fully local, privacy-preserving Multimodal Retrieval-
 2. **Multimodal Vision Ingestion (`02_multimodal_vision_indexing.ipynb`):** Utilizes `pdf2image` and Poppler to extract document figures. Passes images to the **LLaVA** Vision-Language Model to generate descriptive summaries, which are then embedded and fused into the vector store.
 3. **Conversational Interface (`app.py`):** A Streamlit-based web application featuring custom conversational memory (`session_state`) and real-time source citation, allowing users to interact naturally with the ingested multimodal data.
 
-## ⚙️ Tech Stack
+##  Tech Stack
 * **Orchestration:** LangChain
 * **Frontend:** Streamlit
 * **Vector Database:** ChromaDB
 * **Local LLM / VLM:** Ollama (LLaVA for vision, Nomic for embeddings)
 * **Document Processing:** PyPDF, pdf2image, Poppler
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 1. Ensure **Ollama** is installed and running the required models:
 ```bash
    ollama pull llava
