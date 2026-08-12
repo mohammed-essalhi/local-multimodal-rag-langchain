@@ -29,14 +29,14 @@ This repository contains a fully local, privacy-preserving Multimodal Retrieval-
    pip install -r requirements.txt
 ```
 
-##  Author
-**Mohammed Essalhi**
-* [LinkedIn](https://linkedin.com/in/mohammed-essalhi-23794b24b)
-
-
 3. Run the indexing notebooks sequentially (01_text_indexing.ipynb then 02_multimodal_vision_indexing.ipynb) to generate the local ollama_mrag_db.
 
 4. Launch the Streamlit application:
 ```bash
    streamlit run app.py
 ```
+
+##  Author
+**Mohammed Essalhi**
+* [LinkedIn](https://linkedin.com/in/mohammed-essalhi-23794b24b)
+
